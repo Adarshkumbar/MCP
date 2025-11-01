@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MCP server (feed_mcp.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/feed_mcp.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        }
+    ]
+}
